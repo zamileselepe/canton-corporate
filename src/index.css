@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@theme {
+  --font-heading: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  
+  --color-gold-50: #fdfbf7;
+  --color-gold-100: #fbf5e6;
+  --color-gold-200: #f5e6be;
+  --color-gold-300: #ecd28f;
+  --color-gold-400: #e2bd60;
+  --color-gold-500: #d4af37;
+  --color-gold-600: #b58d24;
+  --color-gold-700: #8f6b1e;
+  --color-gold-800: #74541e;
+  --color-gold-900: #62461e;
+
+  --color-burgundy-50: #fcf4f6;
+  --color-burgundy-100: #f8e8ec;
+  --color-burgundy-600: #9e0e31;
+  --color-burgundy-700: #800020;
+  --color-burgundy-800: #68001a;
+  --color-burgundy-900: #4a0013;
+  --color-burgundy-950: #30000c;
+
+  --color-charcoal-800: #252a2e;
+  --color-charcoal-900: #1a1d20;
+  --color-charcoal-950: #101214;
+}
+
+body {
+  font-family: var(--font-sans);
+  color: #1a1d20;
+  background-color: #f8fafc;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+}
+
+/* Subtle gold metallic shimmer line */
+.gold-gradient-border {
+  background: linear-gradient(90deg, #d4af37 0%, #f5e6be 50%, #d4af37 100%);
+}
+
+.gold-gradient-text {
+  background: linear-gradient(135deg, #f5e6be 0%, #d4af37 50%, #b58d24 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
