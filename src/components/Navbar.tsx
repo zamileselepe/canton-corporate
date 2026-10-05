@@ -61,24 +61,16 @@ export const Navbar: React.FC = () => {
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
-          {/* Brand Zone: Full Logo Without Borders or Duplicate Text */}
+          {/* Brand Zone: Logo Link */}
           <a
             href="#home"
             className="flex items-center group focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#D4AF37] py-1"
             aria-label="Canton Investments Homepage"
           >
-            <img
-              src={COMPANY_INFO.logoUrl}
-              alt="Canton Investments"
-              className="h-14 sm:h-16 md:h-18 max-h-[72px] w-auto object-contain transition-transform duration-200 group-hover:scale-[1.02]"
-              referrerPolicy="no-referrer"
-              onError={(e) => {
-                const target = e.currentTarget;
-                target.style.display = 'none';
-                if (target.parentElement) {
-                  target.parentElement.innerHTML = '<span class="font-extrabold text-[#800020] text-2xl font-heading tracking-tight">CANTON</span>';
-                }
-              }}
+            <img 
+              src="/img/logo.png" 
+              alt="Canton Investments" 
+              className="h-12 sm:h-14 w-auto object-contain transition-transform duration-200 group-hover:scale-105" 
             />
           </a>
 

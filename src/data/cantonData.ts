@@ -15,8 +15,8 @@ export const COMPANY_INFO = {
   ],
   whatsappNumber: '+27152911573',
   whatsappUrl: 'https://wa.me/27152911573?text=Hello%20Canton%20Development%20Institute,%20I%20would%20like%20to%20inquire%20about%20your%20SETA%20and%20Artisan%20programmes.',
-  logoUrl: 'https://cantoncorporate.co.za/img/web.jpg',
-  iconUrl: 'https://cantoncorporate.co.za/img/icon.png',
+  logoUrl: '/img/logo.png',
+  iconUrl: '/img/logo.png',
   leadership: {
     managingDirector: 'Mr. George Peta',
     title: 'Managing Director & Founder',
